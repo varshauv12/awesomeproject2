@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountHome renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#1A1A1A",
+      "flex": 1,
+      "textAlign": "center",
+      "top": 0,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "flex-start",
+        "opacity": 1,
+        "right": 150,
+        "top": 15,
+      }
+    }
+  >
+    <FontAwesome
+      color="white"
+      name="arrow-left"
+      size={25}
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "color": "#EDF6FF",
+        "left": 90,
+        "opacity": 1,
+      }
+    }
+  >
+    <FontAwesome
+      color="#EDF6FF"
+      name="info-circle"
+      size={15}
+    />
+    <Text
+      style={
+        {
+          "bottom": 17,
+          "color": "#EDF6FF",
+          "left": 20,
+        }
+      }
+    >
+      What to send
+    </Text>
+  </View>
+  <View>
+    <View>
+      <Image
+        source={
+          {
+            "testUri": "../../../assets/Images/img.png",
+          }
+        }
+        style={
+          {
+            "height": 200,
+            "left": 0,
+            "top": 40,
+            "width": 300,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "top": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#EDF6FF",
+            "fontSize": 30,
+            "top": 55,
+          }
+        }
+      >
+        Send packages with Connect
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#EDF6FF",
+            "fontSize": 16,
+            "top": 85,
+            "width": 295,
+          }
+        }
+      >
+        Get it delivered in the time it takes to drive there
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "black",
+            "borderWidth": 1,
+            "color": "#FFFFFF",
+            "height": 50,
+            "opacity": 1,
+            "top": 130,
+            "width": 310,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#EDF6FF",
+              "fontSize": 20,
+              "paddingTop": 8,
+            }
+          }
+        >
+          Send a package
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "black",
+            "borderWidth": 1,
+            "color": "#FFFFFF",
+            "height": 50,
+            "opacity": 1,
+            "top": 145,
+            "width": 310,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#EDF6FF",
+              "fontSize": 20,
+              "paddingTop": 8,
+            }
+          }
+        >
+          Receive a package
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

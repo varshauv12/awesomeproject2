@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecievingPackages renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#1A1A1A",
+      "flex": 1,
+      "textAlign": "center",
+      "top": 0,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "left",
+            "opacity": 1,
+            "top": 18,
+          }
+        }
+      >
+        <FontAwesome
+          color="white"
+          name="arrow-left"
+          size={25}
+        />
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "left": 230,
+            "opacity": 1,
+          }
+        }
+      >
+        <FontAwesome
+          color="#EDF6FF"
+          name="user"
+          size={15}
+        />
+        <Text
+          style={
+            {
+              "bottom": 17,
+              "color": "#EDF6FF",
+              "left": 20,
+            }
+          }
+        >
+          Contacts
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            {
+              "color": "#EDF6FF",
+              "fontSize": 33,
+              "left": 10,
+              "top": 55,
+              "width": 314,
+            }
+          }
+        >
+          Who’s receiving the package?
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#EDF6FF",
+              "fontSize": 14,
+              "left": 10,
+              "top": 85,
+              "width": 314,
+            }
+          }
+        >
+          The driver may contact the receiver to complete the delivery
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#EDF6FF",
+              "fontSize": 21.6,
+              "left": 10,
+              "top": 95,
+            }
+          }
+        >
+          Name
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter name"
+          placeholderTextColor="#979797"
+          style={
+            {
+              "borderColor": "#FFFF",
+              "borderWidth": 1,
+              "color": "#FFFF",
+              "fontSize": 24,
+              "height": 58,
+              "margin": 12,
+              "padding": 10,
+              "top": 100,
+            }
+          }
+          value=""
+        />
+        <View>
+          <Text
+            style={
+              {
+                "color": "#EDF6FF",
+                "fontSize": 21.6,
+                "left": 10,
+                "top": 95,
+              }
+            }
+          >
+            Phone number
+          </Text>
+          <Image
+            source={
+              {
+                "testUri": "../../../assets/Images/imgtwo.png",
+              }
+            }
+            style={
+              {
+                "height": 25,
+                "left": 10,
+                "top": 110,
+                "width": 30,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#EDF6FF",
+                "fontSize": 24,
+                "left": 55,
+                "top": 80,
+              }
+            }
+          >
+            +91
+          </Text>
+          <TextInput
+            keyboardType="numeric"
+            maxLength={10}
+            onChangeText={[Function]}
+            placeholder="0000000000"
+            placeholderTextColor="#979797"
+            style={
+              {
+                "color": "#FFFF",
+                "fontSize": 24,
+                "height": 50,
+                "left": 90,
+                "margin": 12,
+                "padding": 10,
+                "top": 30,
+                "width": 300,
+              }
+            }
+            value=""
+          />
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "black",
+                "borderWidth": 1,
+                "color": "#FFFFFF",
+                "height": 50,
+                "left": 10,
+                "marginVertical": 150,
+                "opacity": 1,
+                "width": 310,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#EDF6FF",
+                  "fontSize": 20,
+                  "paddingTop": 8,
+                }
+              }
+            >
+              Confirm recipient
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
